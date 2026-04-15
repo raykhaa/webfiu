@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Pengalaman</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="fade-in">
+
+<div class="bg-pattern"></div>
+<div class="overlay"></div>
+
+<div class="music-player" id="musicPlayer">
+    <button class="music-toggle" id="musicToggle" type="button" aria-expanded="true" aria-controls="bgMusic">
+        Hide
+    </button>
+    <audio id="bgMusic" controls autoplay preload="auto">
+        <source src="music.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung audio element.
+    </audio>
+</div>
+
+<div id="pageShell">
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="tentang.html" class="nav-link">Tentang</a>
+                <a href="skill.html" class="nav-link">Skill</a>
+            </div>
+            <div class="nav-right">
+                <a href="pengalaman.html" class="nav-link active">Pengalaman</a>
+                <a href="project.html" class="nav-link">Project</a>
+                <a href="pencapaian.html" class="nav-link">Pencapaian</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="content page-content">
+        <div class="page-hero">
+            <h1 class="page-title">Pengalaman</h1>
+            <p class="page-subtitle">Perjalanan saya dibentuk oleh pengalaman akademik, organisasi, dan proyek mandiri yang membantu saya memahami disiplin kerja, koordinasi, serta pentingnya hasil yang terstruktur.</p>
+        </div>
+
+        <h2 class="section-heading">Perjalanan Pengalaman</h2>
+        <div class="timeline">
+            <article class="timeline-item">
+                <span class="period">SMK Negeri 1 Lubuklinggau</span>
+                <h3>Akuntansi dan Keuangan Lembaga</h3>
+                <p>Memperoleh fondasi tentang pencatatan keuangan, pengelolaan dokumen, dan pentingnya akurasi dalam setiap proses administrasi.</p>
+            </article>
+            <article class="timeline-item">
+                <span class="period">Universitas Sriwijaya</span>
+                <h3>Mahasiswa Komputerisasi Akuntansi</h3>
+                <p>Mendalami hubungan antara proses akuntansi dan teknologi informasi, termasuk bagaimana sistem dapat membantu efisiensi dan pelaporan.</p>
+            </article>
+            <article class="timeline-item">
+                <span class="period">Project Pribadi</span>
+                <h3>Latihan Pembuatan Website</h3>
+                <p>Membangun dan mengembangkan halaman web sederhana untuk melatih kemampuan desain antarmuka, struktur konten, dan interaktivitas dasar.</p>
+            </article>
+        </div>
+
+        <h2 class="section-heading">Pelajaran dari Pengalaman</h2>
+        <div class="cards-grid">
+            <article class="info-card">
+                <h3>Disiplin</h3>
+                <p>Belajar menyelesaikan pekerjaan tepat waktu dan menjaga kualitas hasil meskipun tugas memiliki detail yang banyak.</p>
+            </article>
+            <article class="info-card">
+                <h3>Kolaborasi</h3>
+                <p>Terbiasa berdiskusi, menerima masukan, dan menyesuaikan cara kerja agar target bersama dapat tercapai.</p>
+            </article>
+            <article class="info-card">
+                <h3>Pengembangan Diri</h3>
+                <p>Setiap pengalaman menjadi dasar untuk memperluas kemampuan teknis maupun soft skill secara bertahap.</p>
+            </article>
+        </div>
+
+        <div class="page-actions">
+            <a href="index.html" class="menu-card">Kembali ke Home</a>
+        </div>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

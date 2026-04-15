@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Project</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="fade-in">
+
+<div class="bg-pattern"></div>
+<div class="overlay"></div>
+
+<div class="music-player" id="musicPlayer">
+    <button class="music-toggle" id="musicToggle" type="button" aria-expanded="true" aria-controls="bgMusic">
+        Hide
+    </button>
+    <audio id="bgMusic" controls autoplay preload="auto">
+        <source src="music.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung audio element.
+    </audio>
+</div>
+
+<div id="pageShell">
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="tentang.html" class="nav-link">Tentang</a>
+                <a href="skill.html" class="nav-link">Skill</a>
+            </div>
+            <div class="nav-right">
+                <a href="pengalaman.html" class="nav-link">Pengalaman</a>
+                <a href="project.html" class="nav-link active">Project</a>
+                <a href="pencapaian.html" class="nav-link">Pencapaian</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="content page-content">
+        <div class="page-hero">
+            <h1 class="page-title">Project</h1>
+            <p class="page-subtitle">Beberapa project yang saya kerjakan menjadi sarana untuk mengasah kreativitas, ketelitian, serta kemampuan menerjemahkan ide menjadi tampilan yang fungsional.</p>
+        </div>
+
+        <div class="cards-grid">
+            <article class="info-card">
+                <h3>Personal Portfolio Website</h3>
+                <p>Membuat website portfolio pribadi sebagai media untuk memperkenalkan profil, kemampuan, dan perjalanan akademik secara lebih menarik dan terstruktur.</p>
+            </article>
+            <article class="info-card">
+                <h3>Latihan Landing Page</h3>
+                <p>Mengembangkan halaman promosi sederhana untuk melatih tata letak, visual hierarchy, dan penggunaan elemen interaktif di frontend.</p>
+            </article>
+            <article class="info-card">
+                <h3>Dokumentasi Data Akademik</h3>
+                <p>Menyusun data dan informasi akademik dalam format yang mudah dibaca untuk mendukung presentasi maupun administrasi.</p>
+            </article>
+        </div>
+
+        <h2 class="section-heading">Pendekatan Saya dalam Project</h2>
+        <div class="timeline">
+            <article class="timeline-item">
+                <span class="period">1. Perencanaan</span>
+                <h3>Menentukan Tujuan dan Struktur</h3>
+                <p>Saya memulai project dengan memahami kebutuhan utama, menentukan isi yang paling penting, dan menyusun alur tampilan.</p>
+            </article>
+            <article class="timeline-item">
+                <span class="period">2. Eksekusi</span>
+                <h3>Membangun Secara Bertahap</h3>
+                <p>Pengerjaan dilakukan langkah demi langkah agar desain, isi, dan fungsi dapat berkembang secara seimbang.</p>
+            </article>
+            <article class="timeline-item">
+                <span class="period">3. Evaluasi</span>
+                <h3>Merapikan dan Memperbaiki</h3>
+                <p>Saya mengecek kembali struktur, tulisan, dan tampilan agar hasil akhir lebih nyaman dilihat dan mudah dipahami.</p>
+            </article>
+        </div>
+
+        <div class="page-actions">
+            <a href="index.html" class="menu-card">Kembali ke Home</a>
+        </div>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

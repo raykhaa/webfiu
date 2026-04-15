@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Arofiu Rizki Personal Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="fade-in">
+
+<div class="bg-pattern"></div>
+<div class="overlay"></div>
+
+<div class="music-player" id="musicPlayer">
+    <button class="music-toggle" id="musicToggle" type="button" aria-expanded="true" aria-controls="bgMusic">
+        Hide
+    </button>
+    <audio id="bgMusic" controls autoplay preload="auto">
+        <source src="music.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung audio element.
+    </audio>
+</div>
+
+<div class="intro-splash" id="introSplash">
+    <div class="intro-card">
+        <p class="intro-label">Welcome</p>
+        <h1 class="intro-title">Arofiu Rizki Portfolio</h1>
+        <p class="intro-text">Klik tombol di bawah untuk mengenal fiu lebih dekat!</p>
+        <button class="intro-button" id="enterHomeButton" type="button">Masuk ke Beranda</button>
+    </div>
+</div>
+
+<div id="pageShell">
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="tentang.html" class="nav-link">Tentang</a>
+                <a href="skill.html" class="nav-link">Skill</a>
+            </div>
+            <div class="nav-right">
+                <a href="pengalaman.html" class="nav-link">Pengalaman</a>
+                <a href="project.html" class="nav-link">Project</a>
+                <a href="pencapaian.html" class="nav-link">Pencapaian</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <img src="profile.jpg" alt="Arofiu Rizki" class="profile-photo" id="heroImage">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <div class="logo">AROFIU RIZKI</div>
+                <p class="tagline">Personal Portfolio</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="description-section">
+        <div class="description-content">
+            <h2>Tentang Saya</h2>
+            <p>Halo! Saya adalah Arofiu Rizki Samar Catur Saputra, seorang profesional muda yang bersemangat dalam bidang akuntansi dan pengembangan web. Saya saat ini merupakan mahasiswa di Universitas Sriwijaya dengan jurusan Komputerisasi Akuntansi.</p>
+            
+            <h2>Visi & Misi</h2>
+            <p>Visi saya adalah menjadi profesional yang kompeten dalam menggabungkan ilmu akuntansi dengan teknologi informasi modern. Saya percaya bahwa kombinasi kedua keahlian ini dapat memberikan nilai tambah yang signifikan dalam dunia bisnis digital saat ini.</p>
+            
+            <h2>Keahlian Utama</h2>
+            <ul>
+                <li>Akuntansi dan Keuangan Lembaga</li>
+                <li>Web Development (HTML, CSS, JavaScript)</li>
+                <li>Analisis Data dan Laporan Keuangan</li>
+                <li>Sistem Informasi Akuntansi</li>
+            </ul>
+            
+            <h2>Perjalanan Pendidikan</h2>
+            <p>Saya memulai perjalanan pendidikan di SMK Negeri 1 Lubuklinggau dengan jurusan Akuntansi dan Keuangan Lembaga. Pengalaman selama SMA memberikan fondasi kuat dalam pemahaman akuntansi. Kemudian saya melanjutkan studi ke Universitas Sriwijaya untuk mendalami Komputerisasi Akuntansi, yang membuka wawasan baru tentang integrasi teknologi dalam proses akuntansi.</p>
+            
+            <h2>Prestasi & Penghargaan</h2>
+            <p>Saya telah meraih beberapa penghargaan selama perjalanan akademik, termasuk pengakuan sebagai "Professional Akuntan" yang menunjukkan komitmen saya terhadap profesionalisme dan keunggulan dalam bidang akuntansi.</p>
+        </div>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
